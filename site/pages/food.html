@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/food.css">
+    <title>Еда и вы</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+
+        <div class="container header__inner">
+
+            <!-- BURGER -->
+            <button class="header__burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- LOGO (по центру) -->
+            <div class="header__logo">
+                <img src="../img/лого.png" alt="">
+            </div>
+
+            <!-- NAV -->
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="../pages/food.html">Еда и вы</a></li>
+                    <li><a href="#">Гайды</a></li>
+                    <li><a href="#">Истории</a></li>
+                    <li><a href="../pages/help_page.html">Помощь</a></li>
+                    <li><a href="../pages/media.html">Медиа</a></li>
+                    <li><a href="../pages/speciolistam.html">Специалистам</a></li>
+                    <li><a href="../pages/contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <!-- BUTTONS -->
+            <div class="header__buttons">
+                <a href="tel:+7 (495) 182-55-80">
+                    <button class="btn btn-connect">
+                        <img src="../img/сет иконок.png" alt="">
+                        <p>Связаться</p>
+                    </button>
+                </a>
+
+                <button class="btn btn-enter">
+                    <p>Вход</p>
+                    <img src="../img/Component 220 (1).png" alt="">
+                </button>
+            </div>
+
+        </div>
+
+        <!-- сайдбар -->
+        <div class="header__sidebar">
+            <div class="header__sidebar-header">
+                <button class="header__sidebar-close">&times;</button>
+                <div class="header__sidebar-logo">
+                    <img src="../img/лого.png" alt="">
+                </div>
+            </div>
+            <div>
+                <nav class="header__sidebar-nav">
+                    <ul>
+                        <li><a href="#">Еда и вы</a></li>
+                        <li><a href="#">Гайды</a></li>
+                        <li><a href="../pages/histories.html">Истории</a></li>
+                        <li><a href="../pages/help_page.html">Помощь</a></li>
+                        <li><a href="../pages/media.html">Медиа</a></li>
+                        <li><a href="../pages/speciolistam.html">Специалистам</a></li>
+                        <li><a href="../pages/contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+
+
+            </div>
+            <div class="header__sidebar-contacts">
+                <ul class="contacts-list">
+                    <li>
+                        <a href="tel:+74951825580">
+                            <img src="../img/mingcute_phone-fill.png" alt="Телефон">
+                            <span>+7 (495) 182-55-80</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:vigor.vitalis@gmail.com">
+                            <img src="../img/fluent_mail-16-filled.png" alt="Email">
+                            <span>vigor.vitalis@gmail.com</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="social-list">
+                    <li>
+                        <a href="#"><img src="../img/ic_baseline-whatsapp — копия.png" alt="WhatsApp"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="../img/bi_telegram.png" alt="Telegram"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="../img/lets-icons_e-mail.png" alt="Email"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- food-hero -->
+        <section class="food-hero">
+            <div class="food-hero__wrapper">
+
+            </div>
+        </section>
+
+        <section class="food-hero-mobile">
+            <div class="food-hero-mobile__wrapper">
+
+            </div>
+        </section>
+
+        <!-- section arcicle -->
+        <section class="arcticle">
+            <div class="arcticle__wrapper">
+
+                <div class="arcticle__wrapper__pages">
+                    <p><a class="NotActivePageLink" href="#">Главная</a> / <a class="ActivePageLink" href="#">Еда и
+                            вы</a>
+                    </p>
+                </div>
+
+                <div class="arcticle__wrapper-title">
+                    <h2>ПОЛЕЗНЫЕ <br> СТАТЬИ</h2>
+                </div>
+
+                <div class="arcticle__wrapper-btns">
+                    <div class="arcticle__tags" role="tablist" aria-label="Фильтры статей">
+                        <button class="arcticle__tag arcticle__tag--active" type="button"
+                            aria-pressed="true">Все</button>
+                        <button class="arcticle__tag" type="button">Понимание пищевого поведения</button>
+                        <button class="arcticle__tag" type="button">Диеты, правила и их цена</button>
+                        <button class="arcticle__tag" type="button">Отношение к телу и мотивация</button>
+                        <button class="arcticle__tag" type="button">Эмоции за столом</button>
+                        <button class="arcticle__tag" type="button">Безопасность в онлайн-пространстве</button>
+                    </div>
+                </div>
+
+                <div class="carousel-controls mobile-only">
+                    <button class="carousel-prev" aria-label="Предыдущая статья">
+                        <img src="../img/кнопка стрелка (1) — копия.png" alt="">
+                    </button>
+                    <button class="carousel-next" aria-label="Следующая статья">
+                        <img src="../img/кнопка стрелка (3).png" alt="">
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="arcticle__cards">
+                <!-- Category: Понимание пищевого поведения (4) -->
+                <article class="arcticle-card" data-title="Что такое РПП и почему о нём перестали молчать"
+                    data-category="Понимание пищевого поведения">
+                    <img src="../img/belokuraa-zenskaa-model-so-skulami-i-svetlymi-volosami-derzasaa-burger-rukami-s-vyrazeniem-lica 1.png"
+                        alt="Что такое РПП" />
+                    <h3>Что такое РПП и почему о нём перестали молчать</h3>
+                    <p>Если вы читаете эту статью, то скорее всего вас не устраивают ваши взаимоотношения с едой, со
+                        своим внутренним миром и телом. Что-то заставляет вас испытывать дискомфорт и он складывается из
+                        разных чувств – тревога, злость, стыд, ощущение безысходности, ощущение, что ты «не такой, как
+                        надо», желание изменить себя до неузнаваемости или просто не понимание, как с этим быть.</p>
+                    <a class="btn read-btn" href="#">читать статью</a>
+                </article>
+
+                <article class="arcticle-card"
+                    data-title="Почему совет «просто начни нормально есть» не работает: нейробиология РПП"
+                    data-category="Понимание пищевого поведения">
+                    <img src="../img/belokuraa-lami-i-svetlymi-volosami-derzasaa-burger-rukami-s-vyrazeniem-lica 1.png"
+                        alt="Нейробиология РПП" />
+                    <h3>Почему зацикленность
+                        на правильном питании разрушает пищевое поведение?</h3>
+                    <p>Люди, придерживающиеся правильного питания, как правило, вызывают у окружающих одобрение
+                        и даже восхищение. В нашем мире, где легко поддаться пищевым соблазнам, осознанное
+                        самоограничение и внимательное отношение к своему здоровью не может не внушать уважение.</p>
+                    <a class="btn read-btn" href="#">читать статью</a>
+                </article>
+
+                <article class="arcticle-card"
+                    data-title="Почему «вкусное» вдруг стало «невкусным» и почему это хороший знак"
+                    data-category="Понимание пищевого поведения">
+                    <img src="../img/belokuraa-zenskaa-model3-so-skulami-i-svetlymi-volosami-derzasaa-burger-rukami-s-vyrazeniem-lica 1.png"
+                        alt="Вкус и восприятие" />
+                    <h3>Почему вы возвращаетесь
+                        к планам питания, даже если они мешают вам жить полной жизнью?</h3>
+                    <p>Вы говорите себе: «На этот раз всё будет по-другому». Скачиваете план питания, исключаете
+                        продукты, которые вызывают тревогу, обещаете себе больше контроля, силы воли и дисциплины. Но
+                        где-то глубоко внутри вы уже знаете, чем это закончится. Цикл всегда один и тот же: вы следуете
+                        правилам, какое-то время чувствуете себя «в контроле» — возможно, даже гордитесь собой.</p>
+                    <a class="btn read-btn" href="#">читать статью</a>
+                </article>
+
+                <article class="arcticle-card" data-title="Когда переедание становится реальной проблемой"
+                    data-category="Понимание пищевого поведения">
+                    <img src="../img/belokuraa-zenskaa-model4-so-skulami-i-svetlymi-volosami-derzasaa-burger-rukami-s-vyrazeniem-lica 1.png"
+                        alt="Переедание" />
+                    <h3>Безопасно, но тревожно: парадоксы современного питания</h3>
+                    <p>Один из самых заметных и в то же время странных феноменов современного отношения к еде —
+                        это то, что чем «безопаснее» становится пища с точки зрения научных и гигиенических
+                        стандартов, тем больше тревоги она вызывает у людей. Это настоящий парадокс: несмотря на
+                        беспрецедентный контроль качества продуктов, всё больше людей воспринимают питание не как
+                        акт удовлетворения базовой потребности, а как потенциальную угрозу.</p>
+                    <a class="btn read-btn" href="#">читать статью</a>
+                </article>
+
+                <!-- Category: Диеты, правила и их цена (5) -->
+                <article class="arcticle-card"
+                    data-title="Чем диетическое мышление отличается от мышления человека на правильном питании"
+                    data-category="Диеты, правила и их цена">
+                    <img src="../img/belokuraa-zenskaa-model5-so-skulami-i-svetlymi-volosami-derzasaa-burger-rukami-s-vyrazeniem-lica 1.png"
+                        alt="Диетическое мышление" />
+                    <h3>«Сахар — это наркотик»? Почему идея «пищевой зависимости» вводит
+                        в заблуждение</h3>
+                    <p>Недавно журналист и врач Мишель Сим в эфире RTL заявил: «Сахар —
+                        это наркотик», и даже
+                        назвал его «жёстким наркотиком, хуже кокаина». По его словам, сахар вызывает выброс дофамина
+                        — гормона удовольствия, — а затем, под действием инсулина, приводит к резкому падению
+                        энергии и новой тяге к сладкому. В результате, утверждает он, мы сталкиваемся с настоящей
+                        катастрофой общественного здравоохранения: ожирением, диабетом, сердечно-сосудистыми
+                        заболеваниями, неалкогольным циррозом печени и даже преждевременным старением. При этом
+                        пищевая промышленность, по его мнению, усугубляет проблему, маскируя сахар в самых
+                        неожиданных продуктах — от кетчупа до консервированного горошка.</p>
+                    <a class="btn read-btn" href="#">читать статью</a>
+                </article>
+
+                <article class="arcticle-card"
+                    data-title="Почему вы возвращаетесь к планам питания, даже если они мешают вам жить"
+                    data-category="Диеты, правила и их цена">
+                    <img src="../img/belokuraa-zenskaa-mode6l-so-skulami-i-svetlymi-volosami-derzasaa-burger-rukami-s-vyrazeniem-lica 1.png"
+                        alt="Возврат к планам питания" />
+                    <h3>Кто пропагандирует
+                        анорексию и булимию?</h3>
+                    <p>Анорексия нервная — тяжёлое психическое расстройство,
+                        при котором человек навязчиво стремится к потере веса, искажённо воспринимает своё тело и боится
+                        полноты даже при критически низкой массе тела. Несмотря на то, что ВОЗ и медицинское сообщество
+                        давно признали анорексию опасным заболеванием с высоким риском смертности, в интернете до сих
+                        пор существуют сообщества и контент, которые не просто романтизируют это состояние, но и открыто
+                        пропагандируют его как «образ жизни» или как «путь к чистоте и контролю».
+                         </p>
+                    <a class="btn read-btn" href="#">читать статью</a>
+                </article>
+
+                <article class="arcticle-card"
+                    data-title="Почему зацикленность на правильном питании разрушает пищевое поведение"
+                    data-category="Диеты, правила и их цена">
+                    <img src="../img/belokuraa-zenskaa-model7-so-skulami-i-svetlymi-volosami-derzasaa-burger-rukami-s-vyrazeniem-lica 1.png"
+                        alt="Зацикленность на питании" />
+                    <h3>Чем диетическое мышление отличается от мышления человека на правильном питании?</h3>
+                    <p>Сегодня всё больше людей стремятся питаться «правильно», заботясь
+                        о своем здоровье, самочувствии
+                        и энергии. Но в разговорах
+                        о правильной и полезной еде легко запутаться: где заканчивается осознанный выбор и начинается
+                        очередная диета?</p>
+                    <a class="btn read-btn" href="#">читать статью</a>
+                </article>
+
+                <article class="arcticle-card" data-title="Безопасно, но тревожно: парадоксы современного питания"
+                    data-category="Диеты, правила и их цена">
+                    <img src="../img/belokuraa-zenskaa-model8-so-skulami-i-svetlymi-volosami-derzasaa-burger-rukami-s-vyrazeniem-lica 1.png"
+                        alt="Парадоксы питания" />
+                    <h3>Бережное отношение к своим пищевым «хочу» или почему мы все как беременные женщины</h3>
+                    <p>Мы все — как беременные женщины. И это касается не только женщин,
+                        но и мужчин, и вообще
+                        любого человека, чей организм время
+                        от времени посылает яркие, иногда
+                        неожиданные сигналы:
+                        «Хочу именно это, сейчас».</p>
+                    <a class="btn read-btn" href="#">читать статью</a>
+                </article>
+
+                <article class="arcticle-card"
+                    data-title="«Сахар — это наркотик»? Почему идея «пищевой зависимости» вводит в заблуждение."
+                    data-category="Диеты, правила и их цена">
+                    <img src="../img/belokuraa-zenskaa-model9-so-skulami-i-svetlymi-volosami-derzasaa-burger-rukami-s-vyrazeniem-lica 1.png"
+                        alt="Сахар и зависимость" />
+                    <h3>Почему люди на самом деле хотят похудеть?</h3>
+                    <p>Когда мы говорим о желании похудеть, первое, что приходит
+                        в голову — это "здоровый образ
+                        жизни", "красивое тело, соответствующее стандартам", "принятие и любовь окружаюших". Но
+                        если честно... за этим стоит гораздо больше.</p>
+                    <a class="btn read-btn" href="#">читать статью</a>
+                </article>
+
+                <!-- Category: Отношение к телу и мотивация (3) -->
+                <article class="arcticle-card" data-title="Почему люди на самом деле хотят похудеть"
+                    data-category="Отношение к телу и мотивация">
+                    <img src="../img/belokuraa-zenskaa-model10-so-skulami-i-svetlymi-volosami-derzasaa-burger-rukami-s-vyrazeniem-lica 1.png"
+                        alt="Почему люди хотят похудеть" />
+                    <h3>Почему принятие своего тела важнее, чем ненависть к нему?
+                    </h3>
+                    <p>Когда мы говорим об отношении
+                        к своему телу, то довольно часто можем услышать в ответ: нужно
+                        принимать себя.
+                        Но, думаю, многие
+                        из вас считают, что принятие себя, своего тела, наоборот, расслабляет и
+                        снижает мотивацию к работе над собой и исправлению своих физических недостатков.</p>
+                    <a class="btn read-btn" href="#">читать статью</a>
+                </article>
+
+                <article class="arcticle-card" data-title="Почему принятие своего тела важнее, чем ненависть к нему"
+                    data-category="Отношение к телу и мотивация">
+                    <img src="../img/belokuraa-zenskaa-model11-so-skulami-i-svetlymi-volosami-derzasaa-burger-rukami-s-vyrazeniem-lica 1.png"
+                        alt="Принятие тела" />
+                    <h3>Почему «вкусное» вдруг стало «невкусным» и почему это хороший знак</h3>
+                    <p>Многие замечают странную вещь: продукт, который раньше приносил удовольствие — кофе,
+                        сладкая газировка, шоколадный батончик — вдруг начинает казаться слишком резким, приторным,
+                        горьким или даже неприятным. Особенно это часто происходит после перерыва в употреблении:
+                        будь то осознанный отказ, временный перерыв или просто перемена привычек.</p>
+                    <a class="btn read-btn" href="#">читать статью</a>
+                </article>
+
+                <article class="arcticle-card"
+                    data-title="Бережное отношение к своим пищевым «хочу» или почему мы все как беременные женщины"
+                    data-category="Отношение к телу и мотивация">
+                    <img src="../img/belokuraa-zenskaa-model12-so-skulami-i-svetlymi-volosami-derzasaa-burger-rukami-s-vyrazeniem-lica 1.png"
+                        alt="Бережное отношение к желаниям" />
+                    <h3>Почему совет «просто начни нормально есть» не работает: нейробиология РПП</h3>
+                    <p>Когда человек страдает
+                        от расстройства пищевого поведения (РПП), ему часто говорят: «Просто
+                        поешь», «Забудь про эти заморочки», «Все нормально у тебя с едой». Эти комментарии исходят из
+                        доброго побуждения, но они не только бесполезны — они могут быть болезненными и даже
+                        вредными. Дело в том, что РПП — это не выбор самого человека.</p>
+                    <a class="btn read-btn" href="#">читать статью</a>
+                </article>
+
+                <!-- Category: Эмоции за столом (2) -->
+                <article class="arcticle-card"
+                    data-title="О чем вам шепчет или кричит еда, но вы отказываетесь её слушать"
+                    data-category="Эмоции за столом">
+                    <img src="../img/belokuraa-zenskaa-model20-so-skulami-i-svetlymi-volosami-derzasaa-burger-rukami-s-vyrazeniem-lica 1.png"
+                        alt="Еда и эмоции" />
+                    <h3>Когда переедание становится реальной проблемой
+                    </h3>
+                    <p>Многие из нас время от времени говорят: «Переел(а)» — после праздничного ужина, уютного
+                        вечера с пиццей или просто в момент слабости. Но есть важное отличие между случайным
+                        перееданием и хроническим, проблемным поведением, которое влияет на физическое и
+                        эмоциональное состояние.</p>
+                    <a class="btn read-btn" href="#">читать статью</a>
+                </article>
+
+                <article class="arcticle-card" data-title="Почему мы переедаем: циркадные ритмы и эмоции"
+                    data-category="Эмоции за столом">
+                    <img src="../img/belokuraa-zenskaa-model21-so-skulami-i-svetlymi-volosami-derzasaa-burger-rukami-s-vyrazeniem-lica 1.png"
+                        alt="Переедание и ритмы" />
+                    <h3>Что такое РПП — и почему
+                        о нём перестали молчать
+                    </h3>
+                    <p>Расстройства пищевого поведения — это психические заболевания,
+                        в центре которых стоит разрушенное отношение к собственному телу, весу и ценности. Еда
+                        становится не источником питания, а инструментом контроля, наказания, утешения или бегства.</p>
+                    <a class="btn read-btn" href="#">читать статью</a>
+                </article>
+
+                <!-- Category: Безопасность в онлайн-пространстве (2) -->
+                <article class="arcticle-card"
+                    data-title="Как распознать и избежать про-ана и про-миа контента в соцсетях"
+                    data-category="Безопасность в онлайн-пространстве">
+                    <img src="../img/belokuraa-zenskaa-model22-so-skulami-i-svetlymi-volosami-derzasaa-burger-rukami-s-vyrazeniem-lica 1.png"
+                        alt="Про-ана контент" />
+                    <h3>Как распознать и избежать про-ана и про-миа контента в соцсетях</h3>
+                    <p>Социальные сети — это мощный инструмент общения, поддержки
+                        и вдохновения. Но для людей, склонным к расстройствам пищевого поведения (РПП), они могут стать
+                        и ловушкой.
+                        За безобидными хештегами, красивыми фотографиями и «мотивационными» цитатами часто скрывается
+                        токсичный контент, прославляющий анорексию (про-ана) или булимию (про-миа). Такой контент не
+                        только нормализует болезнь, но и активно мешает восстановлению. В этой статье поговорим о о том,
+                        как его распознать, почему он опасен и что делать, чтобы защитить своё душевное и физическое
+                        здоровье..</p>
+                    <a class="btn read-btn" href="#">читать статью</a>
+                </article>
+
+                <article class="arcticle-card" data-title="Кто пропагандирует анорексию и булимию."
+                    data-category="Безопасность в онлайн-пространстве">
+                    <img src="../img/belokuraa-zenskaa-model23-so-skulami-i-svetlymi-volosami-derzasaa-burger-rukami-s-vyrazeniem-lica 1.png"
+                        alt="Пропаганда анорексии" />
+                    <h3>Почему мы переедаем: циркадные ритмы и эмоции</h3>
+                    <p>Многие замечают одну и ту же закономерность: в течение дня удаётся питаться осознанно, следить
+                        за порциями и выбирать сбалансированные продукты, но ближе к вечеру контроль как будто
+                        исчезает.</p>
+                    <a class="btn read-btn" href="#">читать статью</a>
+                </article>
+            </div>
+
+        </section>
+
+
+        <!-- wrapper text -->
+
+        <section class="wrapper__text">
+
+            <div class="wrapper_text-block1">
+                <h3>КАЖДЫЙ РАЗ, КОГДА ТЫ</h3>
+                <h2><span> ВЫБИРАЕШЬ <br> ЗАБОТУ</span>
+                    <br>ВМЕСТО НАКАЗАНИЯ —
+                </h2>
+                <h4>ТЫ РАСПРАВЛЯЕШЬ <br>
+                    <span>[ КРЫЛЬЯ ]</span>
+                </h4>
+            </div>
+
+            <div class="wrapper_text-block2">
+                <p>
+                    Если ваши <span>пищевые привычки</span> вас тревожат —<br>
+                    позвольте себе присмотреться к ним ближе. <br>
+                    <span> Пройдите один
+                        тест</span> или <span>целый комплекс тестов</span>, <br>
+                    чтобы увидеть, что за ними стоит.
+                </p>
+            </div>
+
+        </section>
+
+        <section class="wrapper_tests">
+            <h2 class="wrapper_tests-title">
+                ТЕСТЫ
+            </h2>
+
+            <div class="wrapper_tests-block">
+
+                <div class="wrapper_tests-block_item">
+                    <div class="number">
+                        <p>01</p>
+                        <a href="#"><img src="../img/Frame 1171275643.png" alt=""></a>
+                    </div>
+                    <h3>SCOFF</h3>
+                    <p>это короткий скрининг из 5 вопросов, разработанный для выявления признаков анорексии и булимии.
+                        Формат максимально простой — достаточно отвечать «да» или «нет».</p>
+                    <div class="test__card-btn">
+                        <span class="test__tag">1-2 минуты</span>
+                        <button>ПРОЙТИ ТЕСТ</button>
+                    </div>
+                </div>
+
+                <div class="wrapper_tests-block_item">
+                    <div class="number">
+                        <p>02</p>
+                        <a href="#"><img src="../img/Frame 1171275643.png" alt=""></a>
+                    </div>
+                    <h3>EAT-26</h3>
+                    <p>один из самых распространенных инструментов для оценки нездоровых установок и поведения,
+                        связанных
+                        с едой, весом и телом. Он помогает увидеть, насколько ваши мысли
+                        и привычки в отношении питания могут влиять на самочувствие
+                        и качество жизни.</p>
+                    <div class="test__card-btn">
+                        <span class="test__tag">3-5 минут</span>
+                        <button>ПРОЙТИ ТЕСТ</button>
+                    </div>
+                </div>
+
+                <div class="wrapper_tests-block_item">
+                    <div class="number">
+                        <p>03</p>
+                        <a href="#"><img src="../img/Frame 1171275643.png" alt=""></a>
+                    </div>
+                    <h3>BES</h3>
+                    <p>оценивает выраженность симптомов компульсивного переедания (потеря контроля, эмоциональная боль,
+                        вина).</p>
+                    <div class="test__card-btn">
+                        <span class="test__tag">1-2 минуты</span>
+                        <button>ПРОЙТИ ТЕСТ</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper_tests-import">
+                <div class="wrapper_tests-import_text">
+                    <p>Данные тесты не ставят диагноз — они <span>помогают лучше понять себя</span>. Прохождение
+                        <span>анонимное</span>: ваши ответы
+                        нигде не сохраняются и не привязываются к вашим личным данным без вашего согласия. При желании
+                        вы
+                        можете сохранить результаты
+                        для обсуждения с психологом и мониторинга изменений.
+                    </p>
+                </div>
+
+                <div class="wrapper_tests-import_block">
+                    <img src="../img/f7_exclamationmark-bubble-fill.png" alt="">
+
+                    <h5>Важно</h5>
+
+                    <p>Пройти отдельные тесты или их
+                        комплексы можно в Telegram-боте.
+                        Просто нажмите кнопку «Пройти тест»</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- section combo -->
+
+        <section class="combo">
+            <div class="combo__wrapper">
+                <div class="combo__title">
+                    <h2>НАБОРЫ ТЕСТОВ</h2>
+                </div>
+                <div class="combo__block">
+
+                    <div class="combo__block-element">
+                        <div class="number">
+                            <p>01</p>
+                            <a href="#"><img src="../img/Frame 1171275643.png" alt=""></a>
+                        </div>
+
+                        <h5>Первый шаг — <br>
+                            понять, есть ли РПП</h5>
+
+                        <div class="element-top">
+                            <p>SCOFF — выявляет базовые признаки анорексии или булимии (страх полноты,
+                                потеря контроля
+                                над едой, рвота и др.).</p>
+                        </div>
+
+                        <span class="element__tag">1-2 минуты</span>
+
+
+                        <div class="element-bottom">
+                            <p>EAT-26 — оценивает дезадаптивные мысли и поведение, связанные
+                                с едой, весом и телом (ограничения, страх «плохой» еды,
+                                одержимость контролем).</p>
+                        </div>
+
+                        <span class="element__tag">3-5 минут</span>
+
+                        <button>пройти тесты</button>
+                    </div>
+
+                    <div class="combo__block-element">
+                        <div class="number">
+                            <p>02</p>
+                            <a href="#"><img src="../img/Frame 1171275643.png" alt=""></a>
+                        </div>
+
+                        <h5>Полная картина <br>
+                            пищевого поведения</h5>
+
+                        <div class="element-top">
+                            <p>EAT-26 — оценивает дезадаптивные мысли и поведение, связанные
+                                с едой, весом и телом (ограничения, страх «плохой» еды, одержимость контролем).</p>
+                        </div>
+
+                        <span class="element__tag">3-5 минут</span>
+
+
+                        <div class="element-bottom">
+                            <p>BES — оценивает выраженность симптомов компульсивного переедания (потеря контроля,
+                                эмоциональная боль, вина).</p>
+                        </div>
+
+                        <span class="element__tag">4-6 минут</span>
+
+                        <div class="element-bottom">
+                            <p>IES-2 — измеряет степень связи
+                                с телом: насколько вы слышите голод/сытость и доверяете себе
+                                в еде (интуитивное питание).</p>
+                        </div>
+
+                        <span class="element__tag">4-7 минут</span>
+
+                        <div class="element-bottom">
+                            <p>BAS-2 — измеряет принятие
+                                и уважение к собственному телу, независимо от его формы или веса.</p>
+                        </div>
+
+                        <span class="element__tag">2-3 минуты</span>
+
+                        <button>пройти тесты</button>
+                    </div>
+
+                    <div class="combo__block-element">
+                        <div class="number">
+                            <p>03</p>
+                            <a href="#"><img src="../img/Frame 1171275643.png" alt=""></a>
+                        </div>
+
+                        <h5>РПП + сопутствующие <br>состояния</h5>
+
+                        <div class="element-top">
+                            <p>EAT-26 — оценивает дезадаптивные мысли и поведение, связанные
+                                с едой, весом и телом (ограничения, страх «плохой» еды, одержимость контролем).</p>
+                        </div>
+
+                        <span class="element__tag">3-5 минут</span>
+
+
+                        <div class="element-bottom">
+                            <p>GAD-7 — измеряет уровень
+                                тревоги (напряжение, беспокойство, трудности с расслаблением).</p>
+                        </div>
+
+                        <span class="element__tag">1-2 минуты</span>
+
+                        <div class="element-bottom">
+                            <p>PHQ-9 — измеряет симптомы депрессии (подавленность, усталость, потеря интереса,
+                                суицидальные мысли).</p>
+                        </div>
+
+                        <span class="element__tag">2-3 минуты</span>
+
+                        <div class="element-bottom">
+                            <p>ASRS-v1.1 — скрининг СДВГ
+                                у взрослых (внимание, импульсивность, организованность).</p>
+                        </div>
+
+                        <span class="element__tag">3-5 минуты</span>
+
+                        <div class="element-bottom">
+                            <p>DERS-16 — измеряет трудности
+                                в регуляции эмоций (подавление, импульсивные реакции, отсутствие стратегий совладания).
+                            </p>
+                        </div>
+
+                        <span class="element__tag">4-6 минут</span>
+
+                        <button>пройти тесты</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="price">
+            <div class="price__wrapper">
+                <h2><span>ТВОЯ ЦЕННОСТЬ</span> <br>
+                    НЕ ЗАВИСИТ ОТ ТОГО, НАСКОЛЬКО<br>
+                    ТЫ КОНТРОЛИРУЕШЬ <br><span>СВОЁ ТЕЛО.</span>
+                </h2>
+
+                <h3>
+                    ОНА — В ТОМ, ЧТО ТЫ <br>
+                    <span>[ СУЩЕСТВУЕШЬ ]</span>
+                </h3>
+            </div>
+        </section>
+
+        <button onclick="topFunction()" id="myBtn" title="Перейти к началу">
+            Наверх <img src="../img/кнопка стрелка (2).png" alt="">
+        </button>
+    </main>
+
+    <!-- footer -->
+
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__wrapper-logo">
+                <img src="../img/лого.png" alt="Logo">
+            </div>
+
+            <div class="footer__wrapper-documents">
+                <h6>
+                    Документация
+                </h6>
+
+                <ul>
+                    <li>
+                        <a href="#">Политика конфиденциальности</a>
+                    </li>
+                    <li>
+                        <a href="#">Пользовательское соглашение</a>
+                    </li>
+                    <li>
+                        <a href="#">Договор оферты</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__wrapper-info">
+                <ul>
+                    <li>
+                        <a href="#">
+                            ИНН 9728164890
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            КПП 772801001
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            ОГРН 1257700479563
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="footer__wrapper-nav">
+                <h6>Меню</h6>
+
+                <ul>
+                    <li>
+                        <a href="#">
+                            Еда и вы
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Гайды
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Истории
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../pages/help_page.html">
+                            Помощь
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Медиа
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Специалистам
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__wrapper-contacts">
+                <h6>Контакты</h6>
+
+                <ul>
+                    <li>
+                        <a href="tel:+7 (495) 182-55-80">
+                            <img src="../img/сет иконок.png" alt="">
+                            +7 (495) 182-55-80
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="mailto:vigor.vitalis@gmail.com">
+                            <img src="../img/сет иконок (1).png" alt="">
+                            vigor.vitalis@gmail.com
+                        </a>
+                    </li>
+                </ul>
+
+
+                <div class="socmedia">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="../img/ic_baseline-whatsapp.png" alt="">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="../img/bi_telegram.png" alt="">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="../img/lets-icons_e-mail.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__copyright">
+            <div class="footer__copyright-rights">
+                <p>2025 © Все права защищены</p>
+            </div>
+
+            <div class="footer__copyright-design">
+                <p>
+                    <a href="#">
+                        Дизайн сайта
+                    </a>
+                </p>
+            </div>
+
+            <div class="footer__copyright-pics">
+                <p>
+                    Изображения взяты на сайте <a href="#">Freepik.com</a> / <a href="#">Unsplash.com</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="../JavaScript/js.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/media.css">
+    <title>Медиатека</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+
+        <div class="container header__inner">
+
+            <!-- BURGER -->
+            <button class="header__burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- LOGO (по центру) -->
+            <div class="header__logo">
+                <img src="../img/лого.png" alt="">
+            </div>
+
+            <!-- NAV -->
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="site/pages/food.html">Еда и вы</a></li>
+                    <li><a href="#">Гайды</a></li>
+                    <li><a href="site/pages/histories.html">Истории</a></li>
+                    <li><a href="site/pages/help_page.html">Помощь</a></li>
+                    <li><a href="#">Медиа</a></li>
+                    <li><a href="site/pages/speciolistam.html">Специалистам</a></li>
+                    <li><a href="site/pages/contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <!-- BUTTONS -->
+            <div class="header__buttons">
+                <a href="tel:+7 (495) 182-55-80">
+                    <button class="btn btn-connect">
+                        <img src="../img/сет иконок.png" alt="">
+                        <p>Связаться</p>
+                    </button>
+                </a>
+
+                <button class="btn btn-enter">
+                    <p>Вход</p>
+                    <img src="../img/Component 220 (1).png" alt="">
+                </button>
+            </div>
+
+        </div>
+
+        <!-- сайдбар -->
+
+        <div class="header__sidebar">
+            <div class="header__sidebar-header">
+                <button class="header__sidebar-close">&times;</button>
+                <div class="header__sidebar-logo">
+                    <img src="../img/лого.png" alt="">
+                </div>
+            </div>
+            <div>
+                <nav class="header__sidebar-nav">
+                    <ul>
+                        <li><a href="../pages/food.html">Еда и вы</a></li>
+                        <li><a href="#">Гайды</a></li>
+                        <li><a href="#">Истории</a></li>
+                        <li><a href="../pages/help_page.html">Помощь</a></li>
+                        <li><a href="#">Медиа</a></li>
+                        <li><a href="../pages/speciolistam.html">Специалистам</a></li>
+                        <li><a href="../pages/contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+
+
+            </div>
+            <div class="header__sidebar-contacts">
+                <ul class="contacts-list">
+                    <li>
+                        <a href="tel:+74951825580">
+                            <img src="../img/mingcute_phone-fill.png" alt="Телефон">
+                            <span>+7 (495) 182-55-80</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:vigor.vitalis@gmail.com">
+                            <img src="../img/fluent_mail-16-filled.png" alt="Email">
+                            <span>vigor.vitalis@gmail.com</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="social-list">
+                    <li>
+                        <a href="#"><img src="../img/ic_baseline-whatsapp — копия.png" alt="WhatsApp"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="../img/bi_telegram.png" alt="Telegram"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="../img/lets-icons_e-mail.png" alt="Email"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <div class="media__wrapper">
+            <div class="anounces__pages">
+                <p>
+                    <a class="NotActivePageLink" href="#">Главная</a> / <a class="ActivePageLink"
+                        href="#">Специалистам</a>
+                </p>
+            </div>
+
+            <div class="media">
+
+                <div class="media-item-one">
+                    <h2>МЕДИАТЕКА</h2>
+                </div>
+
+                <div class="media-item-two">
+                    <p>
+                        ПОЗНАНИЕ — ПЕРВАЯ СТУПЕНЬ ВОССТАНОВЛЕНИЯ.
+                    </p>
+                    <p>
+                        <span> СМОТРИТЕ, СЛУШАЙТЕ, ВДОХНОВЛЯЙТЕСЬ</span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- media nav  -->
+
+            <div class="media_nav">
+                <ul class="media_nav-links">
+                    <li class="media_nav-link"><a href="#">Подкасты</a></li>
+                    <li class="media_nav-link"><a href="#">Видеоматериалы</a></li>
+                    <li class="media_nav-link"><a href="#">Новости</a></li>
+                    <li class="media_nav-link"><a href="#">Анонсы мероприятий</a></li>
+                </ul>
+                <input type="search" placeholder="Поиск">
+            </div>
+
+            <!-- imedg -->
+
+            <div class="imedg">
+                <img src="../img/064b720135e6494961c038f0203ff5de70f7fffe.png" alt="">
+
+                <img src="../img/Frame 1171276599.png" alt="">
+            </div>
+
+            <!-- media block -->
+
+            <div class="media-block">
+
+                <div class="media-block_box">
+
+                    <div class="media-block_box-one">
+                        <div class="player">
+
+                            <div class="player__container">
+                                <img class="player-cover" src="cover.png" alt="">
+
+                                <div class="player-info">
+                                    <h4 class="player-title">Пища для разума: о РПП честно</h4>
+                                    <div class="player-progress">
+                                        <input type="range" id="progress" value="0" min="0" max="100">
+                                        <span class="duration">–13:07</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="player__wrapper">
+                                <div class="player-controls">
+                                    <button class="prev-btn"><img src="../img/Component 220 (2).png" alt=""></button>
+                                    <button class="play-btn"><img src="../img/пауза.png" alt=""></button>
+                                    <button class="next-btn"><img src="../img/mingcute_pencil-fill.png" alt=""></button>
+                                </div>
+
+                                <div class="player-speed">1x</div>
+
+                                <div class="player-volume">
+                                    <span><img src="../img/Component 220 (3).png" alt=""></span>
+                                    <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+                                </div>
+                            </div>
+
+                            <audio id="audio" src="audio.mp3"></audio>
+
+                        </div>
+                    </div>
+
+                    <div class="media-block_box-two">
+
+                        <div class="media-block_box-two_item">
+                            <img class="media-block_box-two_item-imedg" src="site/img/обложка подкаста.png" alt="">
+                            <p>
+                                Пища для разума:
+                                о РПП честно
+                            </p>
+                            <a href="#"><img src="../img/famicons_play.png" alt="">Слушать</a>
+                        </div>
+
+                        <div class="media-block_box-two_item">
+                            <img class="media-block_box-two_item-imedg" src="site/img/обложка подкаста.png" alt="">
+                            <p>
+                                От срыва к свободе: рассказы о выздоровлении
+                            </p>
+                            <a href="#"><img src="../img/famicons_play.png" alt="">Слушать</a>
+                        </div>
+
+                        <div class="media-block_box-two_item">
+                            <img class="media-block_box-two_item-imedg" src="site/img/обложка подкаста.png" alt="">
+                            <p>
+                                За пределами диеты:
+                                путь к здоровому питанию
+                            </p>
+                            <a href="#"><img src="../img/famicons_play.png" alt="">Слушать</a>
+                        </div>
+
+                        <div class="media-block_box-two_item">
+                            <img class="media-block_box-two_item-imedg" src="site/img/обложка подкаста.png" alt="">
+                            <p>
+                                РПП: мифы, факты, поддержка
+                            </p>
+                            <a href="#"><img src="../img/famicons_play.png" alt="">Слушать</a>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Перейти к началу">
+                    Наверх <img src="../img/кнопка стрелка (2).png" alt="">
+                </button>
+    </main>
+
+    <!-- footer -->
+
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__wrapper-logo">
+                <img src="../img/лого.png" alt="Logo">
+            </div>
+
+            <div class="footer__wrapper-documents">
+                <h6>
+                    Документация
+                </h6>
+
+                <ul>
+                    <li>
+                        <a href="#">Политика конфиденциальности</a>
+                    </li>
+                    <li>
+                        <a href="#">Пользовательское соглашение</a>
+                    </li>
+                    <li>
+                        <a href="#">Договор оферты</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__wrapper-info">
+                <ul>
+                    <li>
+                        <a href="#">
+                            ИНН 9728164890
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            КПП 772801001
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            ОГРН 1257700479563
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="footer__wrapper-nav">
+                <h6>Меню</h6>
+
+                <ul>
+                    <li>
+                        <a href="../pages/food.html">
+                            Еда и вы
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Гайды
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../pages/histories.html">
+                            Истории
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../pages/help_page.html">
+                            Помощь
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Медиа
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../pages/speciolistam.html">
+                            Специалистам
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__wrapper-contacts">
+                <h6>Контакты</h6>
+
+                <ul>
+                    <li>
+                        <a href="tel:+7 (495) 182-55-80">
+                            <img src="../img/сет иконок.png" alt="">
+                            +7 (495) 182-55-80
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="mailto:vigor.vitalis@gmail.com">
+                            <img src="../img/сет иконок (1).png" alt="">
+                            vigor.vitalis@gmail.com
+                        </a>
+                    </li>
+                </ul>
+
+
+                <div class="socmedia">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="../img/ic_baseline-whatsapp.png" alt="">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="../img/bi_telegram.png" alt="">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="../img/lets-icons_e-mail.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__copyright">
+            <div class="footer__copyright-rights">
+                <p>2025 © Все права защищены</p>
+            </div>
+
+            <div class="footer__copyright-design">
+                <p>
+                    <a href="https://t.me/krylova_asya">
+                        Дизайн сайта
+                    </a>
+                </p>
+            </div>
+
+            <div class="footer__copyright-pics">
+                <p>
+                    Изображения взяты на сайте <a href="#">Freepik.com</a> / <a href="#">Unsplash.com</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../JavaScript/media.js"></script>
+
+
+</body>
+
+</html>
