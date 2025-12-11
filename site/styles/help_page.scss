@@ -1078,6 +1078,7 @@ $bronze: #BEB5A5;
             flex-direction: column;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
             transition: transform 0.3s, box-shadow 0.3s;
+            
 
             &:hover {
                 transform: translateY(-5px);
@@ -1137,11 +1138,17 @@ $bronze: #BEB5A5;
                 margin-bottom: 0;
                 margin-right: 0;
                 margin-top: auto;
+                // border: 1px solid red;
+                display: flex;
+                flex-wrap: wrap;
 
                 button {
                     width: 190px;
+                    max-width: 190px;
                     height: 44px;
+                    margin-right: 0;
                     background-color: $biruzovyi; 
+                    white-space: nowrap;
                     font-family: $inter;
                     color: $white;
                     border-radius: 20px;
@@ -1175,6 +1182,7 @@ $bronze: #BEB5A5;
                     line-height: 34px;
                     text-align: center;
                     letter-spacing: 0%;
+                    margin-right: 0;
                     border-radius: 20px;
                     display: inline-block;
                     align-items: center;

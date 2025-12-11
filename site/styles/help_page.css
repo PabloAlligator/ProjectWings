@@ -949,11 +949,16 @@
   margin-bottom: 0;
   margin-right: 0;
   margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 .section-support__wrapper .support__card .support__card-btn button {
   width: 190px;
+  max-width: 190px;
   height: 44px;
+  margin-right: 0;
   background-color: #3E7F8B;
+  white-space: nowrap;
   font-family: "inter";
   color: #FFFCF7;
   border-radius: 20px;
@@ -983,6 +988,7 @@
   line-height: 34px;
   text-align: center;
   letter-spacing: 0%;
+  margin-right: 0;
   border-radius: 20px;
   display: inline-block;
   align-items: center;

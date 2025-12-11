@@ -827,13 +827,16 @@ $bronze: #BEB5A5;
                 padding: 10px 22px;
                 display: inline-flex;
                 align-items: center;
+                white-space: nowrap;
                 gap: 6px;
                 color: #000;
                 transition: all 0.18s ease;
+                text-decoration: none;
 
                 &:after {
                     content: "↗";
-                    font-size: 15px;
+                    font-size: 20px;
+                    vertical-align: middle;
                 }
 
                 &:hover {

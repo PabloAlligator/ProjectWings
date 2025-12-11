@@ -1303,7 +1303,7 @@
 }
 .invent__wrapper .invent__block-text ul li {
   position: relative;
-  width: 85.5%;
+  width: 92.5% !important;
   padding: 20px 20px 20px 40px;
   margin-left: 112px;
   font-family: "inter";
@@ -1713,7 +1713,6 @@
   flex-direction: column;
   gap: 20px;
   /* === чекбокс === */
-  /* === кнопка === */
 }
 .join-form .join-form__blanc-form-group {
   width: 100%;
@@ -1837,18 +1836,19 @@
     padding: 30px 20px;
     border-radius: 15px;
     gap: 10px;
+    max-height: 242px;
   }
   .join-form .join-form__img h3 {
     font-size: 20px;
     line-height: 120%;
-    margin-top: 40%;
+    margin-top: 35%;
     margin-left: 0;
   }
   .join-form .join-form__img p {
     font-size: 16px;
     max-width: 100%;
     margin-left: 0;
-    margin-bottom: 0;
+    margin-top: -4%;
   }
   .join-form .join-form__blanc {
     width: 100%;
@@ -1879,8 +1879,8 @@
     display: flex;
   }
   .join-form .join-form__blanc-form-group-checkbox label input[type=checkbox] {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     min-width: 24px;
     margin-top: 2px;
     border-radius: 8px;
@@ -1937,6 +1937,7 @@
   }
   .join-form .join-form__img {
     width: 100%;
+    max-height: 242px;
     height: 350px;
     padding: 30px 20px;
     border-radius: 15px;
