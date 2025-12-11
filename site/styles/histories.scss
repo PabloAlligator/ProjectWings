@@ -1149,27 +1149,27 @@ $bronze: #BEB5A5;
         align-items: flex-start;
 
         &:nth-child(1) {
-            margin-bottom: 20px;
+            margin-bottom: 130px;
         }
 
         &:nth-child(2) {
-            margin-bottom: 90px;
+            margin-bottom: 130px;
         }
 
         &:nth-child(3) {
-            margin-bottom: 55px;
+            margin-bottom: 130px;
         }
 
         &:nth-child(4) {
-            margin-bottom: 45px;
+             margin-bottom: 130px;
         }
 
         &:nth-child(5) {
-            margin-bottom: 45px;
+            margin-bottom: 130px;
         }
 
         &:nth-child(6) {
-            margin-bottom: 85px;
+            margin-bottom: 130px;
         }
     }
 
@@ -1252,6 +1252,7 @@ $bronze: #BEB5A5;
     .story-card__slides {
         position: relative;
         margin-bottom: 40px;
+        min-height: 670px;
     }
 
     .story-card__slide {
@@ -1375,27 +1376,27 @@ $bronze: #BEB5A5;
             }
 
             &:nth-child(2) {
-                margin-top: -20px;
+                margin-top: -150px;
             }
 
             &:nth-child(3) {
-                margin-top: -100px;
+                margin-top: -150px;
             }
 
             &:nth-child(4) {
-                margin-top: -65px;
+                margin-top: -150px;
             }
 
             &:nth-child(5) {
-                margin-top: -55px;
+                margin-top: -150px;
             }
 
             &:nth-child(6) {
-                margin-top: -55px;
+                margin-top: -150px;
             }
 
             &:nth-child(7) {
-                margin-top: -95px;
+                margin-top: -150px;
             }
         }
 
@@ -1425,6 +1426,7 @@ $bronze: #BEB5A5;
 
         .story-card__slide.is-active p {
             font-size: 16px;
+            // min-height: 585px;
         }
     }
 }
@@ -1723,14 +1725,12 @@ $bronze: #BEB5A5;
     }
 }
 
-// Accept stories section
 .accept-stories-section {
     width: 100%;
     display: flex;
     justify-content: center;
     padding: 80px 60px;
-
-
+    // border: 1px solid red;
 
     .accept-stories {
         width: 100%;
@@ -1746,15 +1746,11 @@ $bronze: #BEB5A5;
     .accept-stories__title {
         font-family: $inter;
         font-weight: 400;
-        font-size: 32px;
+        font-size: 40px;
         line-height: 140%;
         color: $black;
         letter-spacing: 0.01em;
         margin: 0;
-
-        b {
-            display: none;
-        }
 
         .space {
             display: none;
@@ -1775,27 +1771,44 @@ $bronze: #BEB5A5;
     }
 
     .accept-stories__item {
-        padding: 16px 20px;
-        background: #f0eded;
+        position: relative;
+        padding: 16px 20px 16px 44px; 
+        background: $bgr-cards;
         border-radius: 8px;
         font-family: $inter;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 24px;
         line-height: 140%;
         color: $black;
         letter-spacing: 0%;
         margin-left: 0;
         width: 50%;
+
+        &::before {
+            content: "•";
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 28px;
+            color: $bronze;
+        }
+    }
+
+    .accept-stories__note-wrapper {
+        // border: 1px solid red;
+        margin-right: 0;
     }
 
     .accept-stories__note {
         font-family: $inter;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 24px;
         line-height: 160%;
-        color: rgba(0, 0, 0, 0.75);
+        color: $black;
         letter-spacing: 0.02em;
-        text-align: right;
+        text-align: left;
+        margin-right: 0;
         margin: 0;
 
         .space {
@@ -1840,32 +1853,33 @@ $bronze: #BEB5A5;
         .accept-stories__list {
             gap: 10px;
             padding-left: 0;
-            list-style: none;
+            // list-style: none;
             margin-bottom: 10px;
         }
 
         .accept-stories__item {
             width: 100%;
-            font-size: 16px;
+            font-size: 20px;
             padding: 10px;
+            padding-left: 60px;
             background: $bgr-cards;
-            border-radius: 8px;
+            border-radius: 20px;
             margin-left: 0;
             position: relative;
 
-            &::before {
-                content: "•";
-                position: absolute;
-                left: 20px;
-                top: 50%;
-                transform: translateY(-50%);
-                font-size: 24px;
-                color: $bronze;
-            }
+            // &::before {
+            //     content: "•";
+            //     position: absolute;
+            //     left: 20px;
+            //     top: 50%;
+            //     transform: translateY(-50%);
+            //     font-size: 24px;
+            //     color: $bronze;
+            // }
         }
 
         .accept-stories__note {
-            font-size: 16px;
+            font-size: 20px;
             line-height: 150%;
             text-align: left;
 
