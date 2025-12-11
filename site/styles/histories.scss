@@ -478,7 +478,7 @@ $bronze: #BEB5A5;
                 gap: 8px;
                 font-family: $inter;
                 font-weight: 400;
-                font-size: 16px;
+                font-size: 24px;
                 line-height: 120%;
                 text-align: left;
                 opacity: 0.9;
@@ -490,6 +490,7 @@ $bronze: #BEB5A5;
                 transition: all 0.3s ease;
                 display: inline-flex;
                 align-items: center;
+                font-size: 24px;
 
                 &.NotActivePageLink {
                     color: $gray;
@@ -1161,7 +1162,7 @@ $bronze: #BEB5A5;
         }
 
         &:nth-child(4) {
-             margin-bottom: 130px;
+            margin-bottom: 130px;
         }
 
         &:nth-child(5) {
@@ -1174,6 +1175,8 @@ $bronze: #BEB5A5;
     }
 
 
+
+
     .story-card__left {
         width: 32%;
         background: $send-color;
@@ -1183,6 +1186,7 @@ $bronze: #BEB5A5;
         display: flex;
         flex-direction: column;
         gap: 12px;
+        position: relative;
     }
 
     .story-card__avatar {
@@ -1222,10 +1226,73 @@ $bronze: #BEB5A5;
         white-space: nowrap;
     }
 
+    .compact-player {
+        width: 210px;
+        height: 40px;
+        background: $white;
+        position: absolute;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        padding: 0 12px;
+        top: 110px;
+        right: 20px;
+        box-sizing: border-box;
+    }
+
+    .compact-player__btn {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: $biruzovyi;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        color: $white;
+        flex-shrink: 0;
+        transition: all 0.2s ease;
+    }
+
+    .compact-player__btn:hover {
+        background: $biruzovyi;
+    }
+
+    .compact-player__progress {
+        flex: 1;
+        margin-left: 12px;
+    }
+
+    .compact-player__track {
+        width: 100%;
+        height: 4px;
+        background: $bgr-cards;
+        border-radius: 2px;
+        overflow: hidden;
+        margin-bottom: 2px;
+    }
+
+    .compact-player__fill {
+        height: 100%;
+        background: #2A9D8F;
+        border-radius: 2px;
+        transition: width 0.3s ease;
+    }
+
+    .compact-player__time {
+        font-family: 'Inter', sans-serif;
+        font-size: 10px;
+        color: $gray;
+        letter-spacing: 0.02em;
+        white-space: nowrap;
+    }
+
+
     .story-card__quote {
         width: 100%;
         margin-left: 0;
-        background: #fff;
+        background: $white;
         color: $black;
         padding: 12px 14px;
         border-radius: 10px;
@@ -1281,6 +1348,14 @@ $bronze: #BEB5A5;
                 color: $biruzovyi;
             }
         }
+    }
+
+    .story-card__tags-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 12px;
+        margin-left: 0;
     }
 
     .story-card__controls {
@@ -1510,8 +1585,8 @@ $bronze: #BEB5A5;
     display: flex;
     justify-content: center;
     padding: 0 60px;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    margin-top: 350px;
+    margin-bottom: 100px;
 
     .share-story {
         width: 100%;
@@ -1598,11 +1673,12 @@ $bronze: #BEB5A5;
     }
 
     .share-story__btn {
-        margin-top: 20px;
+        margin-top:10px;
         padding: 15px 30px;
         background: $send-color;
         color: $white;
         border: none;
+        width: 540px;
         border-radius: 20px;
         font-family: $inter;
         font-weight: 600;
@@ -1772,7 +1848,7 @@ $bronze: #BEB5A5;
 
     .accept-stories__item {
         position: relative;
-        padding: 16px 20px 16px 44px; 
+        padding: 16px 20px 16px 44px;
         background: $bgr-cards;
         border-radius: 8px;
         font-family: $inter;
@@ -1904,7 +1980,7 @@ $bronze: #BEB5A5;
         }
 
         .accept-stories__title {
-            font-size: 20px;
+            font-size: 32px;
             line-height: 140%;
         }
 
@@ -2007,7 +2083,7 @@ $bronze: #BEB5A5;
     .how-works__text {
         font-family: $inter;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 20px;
         line-height: 150%;
         margin: 0;
         letter-spacing: 0%;
@@ -2015,8 +2091,9 @@ $bronze: #BEB5A5;
 
     .how-works__btn {
         display: block;
-        margin: 40px auto 0;
+        margin-top: -20px;
         padding: 14px 32px;
+        width: 426px;
         background: $send-color;
         color: $white;
         border: none;
@@ -2087,7 +2164,8 @@ $bronze: #BEB5A5;
 
         .how-works__btn {
             width: 100%;
-            margin-top: 30px;
+            margin-top: 50px;
+            font-size: 20px;
             padding: 12px 24px;
         }
     }
@@ -2119,7 +2197,8 @@ $bronze: #BEB5A5;
         }
 
         .how-works__btn {
-            font-size: 14px;
+            font-size: 20px;
+            margin-top: 10px;
             padding: 10px 20px;
         }
     }

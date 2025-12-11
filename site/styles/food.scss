@@ -504,7 +504,7 @@ $bronze: #BEB5A5;
       
 
         &__pages {
-            margin-left: 0;
+            margin-left: -70px;
             width: auto;
 
             p {
@@ -547,7 +547,7 @@ $bronze: #BEB5A5;
             color: $black;
             margin-top: 80px;
             margin-bottom: 40px;
-            margin-left: 0;
+            margin-left: -70px;
 
             br {
                 display: none;
@@ -558,7 +558,7 @@ $bronze: #BEB5A5;
             width: auto;
             display: flex;
             flex-wrap: wrap;
-            margin-left: 0;
+            margin-left: -70px;
             text-align: left;
 
             .arcticle__tags {
@@ -696,6 +696,7 @@ $bronze: #BEB5A5;
                 display: none !important;
                 width: 100% !important;
                 margin-bottom: 0 !important;
+                min-width: 320px !important;
                 opacity: 0;
                 transition: opacity 0.3s ease !important;
                 position: absolute !important;

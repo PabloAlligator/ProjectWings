@@ -414,7 +414,7 @@
   flex-direction: column;
 }
 .arcticle__wrapper__pages {
-  margin-left: 0;
+  margin-left: -70px;
   width: auto;
 }
 .arcticle__wrapper__pages p {
@@ -454,7 +454,7 @@
   color: #262525;
   margin-top: 80px;
   margin-bottom: 40px;
-  margin-left: 0;
+  margin-left: -70px;
 }
 .arcticle__wrapper-title br {
   display: none;
@@ -463,7 +463,7 @@
   width: auto;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 0;
+  margin-left: -70px;
   text-align: left;
 }
 .arcticle__wrapper-btns .arcticle__tags {
@@ -581,6 +581,7 @@
     display: none !important;
     width: 100% !important;
     margin-bottom: 0 !important;
+    min-width: 320px !important;
     opacity: 0;
     transition: opacity 0.3s ease !important;
     position: absolute !important;
