@@ -239,7 +239,6 @@ $bronze: #BEB5A5;
         .header__sidebar-contacts {
             margin-top: 408px;
             text-align: left;
-            // border: 1px solid red;
             margin-left: 0;
 
             ul {
@@ -879,7 +878,7 @@ $bronze: #BEB5A5;
                     gap: 8px;
                     font-family: $inter;
                     font-weight: 400;
-                    font-size: 24px;
+                    font-size: 20px;
                     line-height: 120%;
                     text-align: left;
                     opacity: 0.9;
@@ -890,6 +889,7 @@ $bronze: #BEB5A5;
                     text-decoration: none;
                     transition: all 0.3s ease;
                     display: inline-flex;
+                    font-size: 20px;
                     align-items: center;
 
                     &.NotActivePageLink {
@@ -1609,7 +1609,7 @@ $bronze: #BEB5A5;
             }
 
             &-img {
-                width: 45%;
+                width: 40%;
                 margin-right: 0;
               
                 display: flex;
@@ -1783,6 +1783,7 @@ $bronze: #BEB5A5;
                                 width: 20px;
                                 height: 20px;
                                 font-size: 12px;
+                                color: $white !important;
                             }
                         }
                     }
@@ -1817,7 +1818,6 @@ $bronze: #BEB5A5;
 
 .together {
     width: 100%;
-   
     padding-left: 60px;
     padding-right: 60px;
     max-height: 731px;
@@ -1826,9 +1826,8 @@ $bronze: #BEB5A5;
 
     &__wrapper {
         width: 100%;
-        margin-left: 10%;
+        transform: translateX(-23%);
         max-width: 985px;
-      
         display: flex;
         flex-direction: column;
         gap: 30px;
@@ -1925,6 +1924,7 @@ $bronze: #BEB5A5;
             margin-left: 0;
             max-width: 100%;
             gap: 20px;
+            transform: none;
 
             .together__title {
                 h2 {
@@ -1966,6 +1966,7 @@ $bronze: #BEB5A5;
 
         &__wrapper {
             gap: 20px;
+            transform: none;
 
             .together__title {
                 h2 {
@@ -2032,7 +2033,7 @@ $bronze: #BEB5A5;
             linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.55)),
             url('../img/3945f724fe7228a21175be080258dad1457dc444.jpg');
         background-size: cover;
-        background-position: center;
+        background-position: left top;
         background-repeat: no-repeat;
 
         h3 {
@@ -2042,6 +2043,7 @@ $bronze: #BEB5A5;
             line-height: 120%;
             color: $white;
             text-transform: uppercase;
+            margin-left: 0;
 
             span {
                 color: $send-color;
@@ -2054,6 +2056,7 @@ $bronze: #BEB5A5;
             line-height: 140%;
             color: $white;
             max-width: 380px;
+            margin-left: 0;
         }
     }
 
@@ -2218,7 +2221,7 @@ $bronze: #BEB5A5;
             h3 {
                 font-size: 20px;
                 line-height: 120%;
-                margin-top: 35%;
+                margin-top: 15%;
                 margin-left: 0;
             }
 
@@ -2346,7 +2349,7 @@ $bronze: #BEB5A5;
             h3 {
                 font-size: 20px;
                 line-height: 120%;
-                margin-top: 40%;
+                margin-top: 15%;
                 margin-left: 0;
             }
 
@@ -2538,7 +2541,6 @@ $bronze: #BEB5A5;
 
             .clinic-right {
                 width: 35%;
-                // border: 1px solid red;
                 display: flex;
                 flex-direction: column;
                 gap: 20px;
@@ -2546,7 +2548,6 @@ $bronze: #BEB5A5;
                 .clinic-card {
                     width: 100%;
                     margin: 0;
-                    // border: 1px solid red;
                     border-radius: 20px;
                     background: $bgr-cards;
                     display: flex;

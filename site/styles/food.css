@@ -408,8 +408,8 @@
   background: #EBE7E2;
 }
 .arcticle__wrapper {
-  max-width: 1320px;
   padding: 100px 60px 50px 60px;
+  max-width: 1320px;
   display: flex;
   flex-direction: column;
 }
@@ -726,6 +726,10 @@
     top: -65px;
   }
   .arcticle__wrapper .arcticle__wrapper__pages p {
+    font-size: 20px;
+  }
+  .arcticle__wrapper .NotActivePageLink,
+  .arcticle__wrapper .ActivePageLink {
     font-size: 20px;
   }
   .arcticle__wrapper-title {
@@ -1402,8 +1406,9 @@
     justify-content: space-between;
     align-items: center;
     margin-top: auto;
-    width: 90%;
+    width: 40%;
     text-align: right;
+    gap: 10px;
   }
   .wrapper_tests-block .wrapper_tests-block_item .test__card-btn .test__tag {
     width: auto;
@@ -1419,6 +1424,7 @@
     border-radius: 20px;
     display: inline-block;
     white-space: nowrap;
+    margin-right: 0;
   }
   .wrapper_tests-block .wrapper_tests-block_item .test__card-btn button {
     width: 160px;
@@ -1431,6 +1437,8 @@
     font-size: 16px;
     transition: all 0.3s ease;
     cursor: pointer;
+    margin-right: 0;
+    white-space: nowrap;
   }
   .wrapper_tests-block .wrapper_tests-block_item .test__card-btn button:hover {
     background-color: #E9A73B;
@@ -1532,18 +1540,20 @@
     margin-bottom: 15px;
   }
   .wrapper_tests-block .wrapper_tests-block_item .test__card-btn {
-    width: 100%;
+    width: 70%;
   }
   .wrapper_tests-block .wrapper_tests-block_item .test__card-btn .test__tag {
     height: 36px;
     line-height: 36px;
     font-size: 14px;
     padding: 0 12px;
+    margin-right: 0;
   }
   .wrapper_tests-block .wrapper_tests-block_item .test__card-btn button {
     width: 140px;
     height: 40px;
     font-size: 14px;
+    margin-right: 0;
   }
   .wrapper_tests-import {
     margin-bottom: 50px;

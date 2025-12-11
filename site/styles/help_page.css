@@ -951,6 +951,7 @@
   margin-top: auto;
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
 }
 .section-support__wrapper .support__card .support__card-btn button {
   width: 190px;
@@ -1121,11 +1122,11 @@
     margin-bottom: 40px;
   }
   .section-support__pages p {
-    font-size: 18px;
+    font-size: 20px;
   }
   .section-support__pages .ActivePageLink,
   .section-support__pages .NotActivePageLink {
-    font-size: 18px;
+    font-size: 20px;
   }
   .section-support__head h2 {
     font-size: 32px;
@@ -1360,6 +1361,7 @@
   border-radius: 20px;
   padding: 15px 30px;
   transition: all 0.3s ease;
+  white-space: nowrap;
 }
 .section-club__wrapper .section-club__offer-text .offer-text__button button:hover {
   background-color: #3E7F8B;
@@ -1478,6 +1480,9 @@
 .mental-banner .mental-banner__wrapper .mental-banner__title h2 span {
   color: #3E7F8B;
 }
+.mental-banner .mental-banner__wrapper .mental-banner__title-mobile {
+  display: none;
+}
 .mental-banner .mental-banner__wrapper .mental-banner__title--mobile {
   display: none;
 }
@@ -1568,12 +1573,7 @@
   .mental-banner .mental-banner__title {
     display: none;
   }
-  .mental-banner .mental-banner__title-mobile {
-    display: flex;
-    text-align: center;
-    width: 100%;
-  }
-  .mental-banner .mental-banner__title-mobile h2 {
+  .mental-banner .mental-banner__title h2 {
     font-family: "inter";
     font-weight: 600;
     font-size: 32px;
@@ -1582,10 +1582,11 @@
     text-align: center;
     color: #262525;
   }
-  .mental-banner .mental-banner__title-mobile h2 span:last-child {
-    font-size: 24px;
+  .mental-banner .mental-banner__title h2 span:last-child {
+    font-size: 32px;
   }
-  .mental-banner .mental-banner__title-mobile h2 .color-text {
+  .mental-banner .mental-banner__title h2 .color-text {
+    margin-top: 100px;
     color: #3E7F8B;
   }
   .mental-banner .mental-banner__text {
@@ -1646,10 +1647,10 @@
     margin-bottom: 100px;
   }
   .mental-banner .mental-banner__title h2 {
-    font-size: 28px;
+    font-size: 32px;
   }
   .mental-banner .mental-banner__title h2 span {
-    font-size: 20px;
+    font-size: 24px;
   }
   .mental-banner .mental-banner__text {
     height: 494px;
@@ -2089,10 +2090,10 @@
   .meeting__wrapper .meeting__blocks .blocks-bot .meeting__blocks-element {
     min-height: 500px;
   }
-  .meeting__wrapper .meeting__blocks button {
+  .meeting__wrapper .meeting__blocks .meeting-button {
     max-width: 300px;
     font-size: 24px;
-    margin: 20px auto 0;
+    border: 1px solid red;
   }
 }
 @media (min-width: 781px) {
@@ -3556,7 +3557,6 @@
   transform: scale(0.95);
 }
 
-/* ---------- Планшеты и мобильные (780px и меньше) ---------- */
 @media (max-width: 780px) {
   .programm-form {
     padding-left: 20px;
@@ -3645,8 +3645,8 @@
     content: "✔";
     position: absolute;
     font-size: 20px;
-    left: 5px;
-    top: 0;
+    left: 12px;
+    top: 5px;
     color: #FFFCF7;
     font-weight: 700;
   }

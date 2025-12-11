@@ -1141,6 +1141,7 @@ $bronze: #BEB5A5;
                 // border: 1px solid red;
                 display: flex;
                 flex-wrap: wrap;
+                gap: 10px;
 
                 button {
                     width: 190px;
@@ -1351,12 +1352,12 @@ $bronze: #BEB5A5;
             margin-bottom: 40px;
 
             p {
-                font-size: 18px;
+                font-size: 20px;
             }
 
             .ActivePageLink,
             .NotActivePageLink {
-                font-size: 18px;
+                font-size: 20px;
             }
         }
 
@@ -1639,6 +1640,7 @@ $bronze: #BEB5A5;
                         border-radius: 20px;
                         padding: 15px 30px;
                         transition: all 0.3s ease;
+                        white-space: nowrap;
 
                         &:hover {
                             background-color: $biruzovyi;
@@ -1792,6 +1794,10 @@ $bronze: #BEB5A5;
             }
         }
 
+        .mental-banner__title-mobile {
+            display: none;
+        }
+
         .mental-banner__title--mobile {
             display: none;
         }
@@ -1898,13 +1904,6 @@ $bronze: #BEB5A5;
 
         .mental-banner__title {
             display: none;
-        }
-
-        .mental-banner__title-mobile {
-            display: flex;
-            text-align: center;
-            width: 100%;
-
             h2 {
                 font-family: $inter;
                 font-weight: 600;
@@ -1916,16 +1915,44 @@ $bronze: #BEB5A5;
 
                 span {
                     &:last-child {
-                        font-size: 24px;
+                        font-size: 32px;
                     }
                 }
 
                 .color-text {
+                    margin-top: 100px;
                     color: $biruzovyi;
                 }
 
             }
         }
+
+        // .mental-banner__title-mobile {
+        //     display: inline-block;
+        //     text-align: center;
+        //     width: 100%;
+
+        //     h2 {
+        //         font-family: $inter;
+        //         font-weight: 600;
+        //         font-size: 32px;
+        //         line-height: 120%;
+        //         letter-spacing: 0%;
+        //         text-align: center;
+        //         color: $black;
+
+        //         span {
+        //             &:last-child {
+        //                 font-size: 24px;
+        //             }
+        //         }
+
+        //         .color-text {
+        //             color: $biruzovyi;
+        //         }
+
+        //     }
+        // }
 
         .mental-banner__text {
             height: 494px;
@@ -2001,10 +2028,10 @@ $bronze: #BEB5A5;
 
         .mental-banner__title {
             h2 {
-                font-size: 28px;
+                font-size: 32px;
 
                 span {
-                    font-size: 20px;
+                    font-size: 24px;
                 }
             }
         }
@@ -2527,11 +2554,11 @@ $bronze: #BEB5A5;
                     }
                 }
 
-                button {
+                .meeting-button {
                     max-width: 300px;
-                    
                     font-size: 24px;
-                    margin: 20px auto 0;
+                    border: 1px solid red;
+                    // margin: 20px auto 0;
                 }
             }
         }
@@ -4314,7 +4341,6 @@ $bronze: #BEB5A5;
     }
 }
 
-/* ---------- Планшеты и мобильные (780px и меньше) ---------- */
 @media (max-width: 780px) {
     .programm-form {
         padding-left: 20px;
@@ -4411,8 +4437,8 @@ $bronze: #BEB5A5;
                                 content: "✔";
                                 position: absolute;
                                 font-size: 20px;
-                                left: 5px;
-                                top: 0;
+                                left: 12px;
+                                top: 5px;
                                 color: $white;
                                 font-weight: 700;
                             }

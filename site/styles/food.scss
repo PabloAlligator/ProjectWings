@@ -494,12 +494,14 @@ $bronze: #BEB5A5;
     margin-bottom: 200px;
     width: 100%;
     background: $bgr-cards;
-
+    
+    
     &__wrapper {
-        max-width: 1320px;
         padding: 100px 60px 50px 60px;
+        max-width: 1320px;
         display: flex;
         flex-direction: column;
+      
 
         &__pages {
             margin-left: 0;
@@ -590,6 +592,7 @@ $bronze: #BEB5A5;
                     transform: translateY(-2px);
                     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
                 }
+
             }
 
             .arcticle__tag--active {
@@ -864,6 +867,11 @@ $bronze: #BEB5A5;
                 p {
                     font-size: 20px;
                 }
+            }
+
+            .NotActivePageLink,
+            .ActivePageLink {
+                font-size: 20px;
             }
 
             &-title {
@@ -1682,8 +1690,9 @@ $bronze: #BEB5A5;
                 justify-content: space-between;
                 align-items: center;
                 margin-top: auto;
-                width: 90%;
+                width: 40%;
                 text-align: right;
+                gap: 10px;
 
                 .test__tag {
                     width: auto;
@@ -1699,6 +1708,7 @@ $bronze: #BEB5A5;
                     border-radius: 20px;
                     display: inline-block;
                     white-space: nowrap;
+                    margin-right: 0;
                 }
 
                 button {
@@ -1712,6 +1722,8 @@ $bronze: #BEB5A5;
                     font-size: 16px;
                     transition: all 0.3s ease;
                     cursor: pointer;
+                    margin-right: 0;
+                    white-space: nowrap;
 
                     &:hover {
                         background-color: $send-color;
@@ -1836,19 +1848,21 @@ $bronze: #BEB5A5;
             }
 
             .test__card-btn {
-                width: 100%;
+                width: 70%;
 
                 .test__tag {
                     height: 36px;
                     line-height: 36px;
                     font-size: 14px;
                     padding: 0 12px;
+                    margin-right: 0;
                 }
 
                 button {
                     width: 140px;
                     height: 40px;
                     font-size: 14px;
+                    margin-right: 0;
                 }
             }
         }
